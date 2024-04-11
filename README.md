@@ -5,7 +5,7 @@
 3. Внутри папки с проектом создайте виртуальное окружение:
     - $ python3 -m venv venv
 4. Активируйте виртуальное окружение. Для macOS используйте команду:
-    -  $ source venv/bin/activate.
+    -  $ source venv/bin/activate
 5. Установите Python packages:
     - $ pip3 install playwright
     - $ pip3 install pytest
