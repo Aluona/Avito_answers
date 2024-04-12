@@ -10,7 +10,6 @@ def test_counter_CO2(page: Page):
     expect(counter_CO2).to_have_css("height", "226px")
     expect(counter_CO2).to_have_css("width", "226px")
 
-
     counters_values = page.locator('.desktop-value-Nd1tR')
     counter_value_CO2 = counters_values.nth(0)
     expect(counter_value_CO2).to_be_visible()
@@ -40,8 +39,7 @@ def test_counter_CO2(page: Page):
     expect(image_bird).to_have_css("left", "157px")
     expect(image_bird).to_have_css("width", "89px")
     expect(image_bird).to_have_css("height", "92px")
-
-
+    
     counter_CO2.screenshot(path="output/test_counter_CO2.png")
 
 def test_counter_water(page: Page):
