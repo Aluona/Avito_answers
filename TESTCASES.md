@@ -79,52 +79,52 @@ Test_Case_Counter_water
    
    5.1 Счетчик располагается в нижнем ряду блоков, слева от блока с изображением аватара пользователя.
 
-   Свойства:
-        - "border-radius", "40px";
-        - "height", "226px";
-        - "width", "226px".
+       Свойства:
+         - "border-radius": "40px";
+         - "height": "226px";
+         - "width": "226px".
 
    5.2 Счетчик содержит 3 строки:
  
    5.2.1 Первая строка - числовое значение сохраненного объема воды. Значение может быть как целым числом, так и дробным, разделенным запятой.
     
-     Свойства: 
-        - "text-align", "center";
-        - "color", "rgb(20, 20, 20)";
-        - "font-size", "70.129px";
-        - "font-family", "Manrope, arial, serif".
+        Свойства: 
+          - "text-align": "center";
+          - "color": "rgb(20, 20, 20)";
+          - "font-size": "70.129px";
+          - "font-family": "Manrope, arial, serif".
    
    5.2.2 Вторая строка - единицы измерения данного объема и текст “воды”, разделенные пробелом. Единицы измерения могут быть выражены в литрах, метрах кубических, обозначаемых как “л”, “м³”.
     
-     Свойства:
-        - "font-size", "20.72px";
-        - "color", "rgb(20, 20, 20)";
-        - "text-align", "center";
-        - "font-family", "Manrope, arial, serif".
+        Свойства:
+          - "font-size": "20.72px";
+          - "color": "rgb(20, 20, 20)";
+          - "text-align": "center";
+          - "font-family": "Manrope, arial, serif".
         
    5.2.3 Третья строка - текст “было сохранено”.
     
-     Свойства:
-        - "font-size", "13px";
-        - "text-align", "center";
-        - "color", "rgb(92, 92, 92)";
-        - "font-family", "Manrope, arial, serif".
+        Свойства:
+          - "font-size": "13px";
+          - "text-align": "center";
+          - "color": "rgb(92, 92, 92)";
+          - "font-family": "Manrope, arial, serif".
 
    5.3 В правом верхнем углу счетчика располагается две иконки "Капля". 
     
-    Параметры первой иконки "Капля":
-        - "position", "absolute";
-        - "top", "9px";
-        - "left", "172px";
-        - "width", "16px";
-        - "height", "33px".
+        Параметры первой иконки "Капля":
+           - "position": "absolute";
+           - "top": "9px";
+           - "left": "172px";
+           - "width": "16px";
+           - "height": "33px".
     
-    Параметры второй иконки "Капля":
-        - "position", "absolute";
-        - "top", "42px";
-        - "left", "194px";
-        - "width", "19px";
-        - "height", "40px".
+       Параметры второй иконки "Капля":
+           - "position", "absolute";
+           - "top", "42px";
+           - "left", "194px";
+           - "width", "19px";
+           - "height", "40px".
 
 Test_Case_Counter_energy
 
