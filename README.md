@@ -16,9 +16,10 @@
     - $ playwright install
     
 Более детальная информация по установке приведена по ссылке https://github.com/AutomationPanda/playwright-python-tutorial/blob/main/tutorial/1-getting-started.md
+
 8. Для запуска тестов выполните одну из следующих команд:
     - $ python3 -m pytest tests --headed (для визуального отображения запуска тестов);
     - $ python3 -m pytest tests  (headless режим запуска тестов, быстрее, чем headed, но без визуального сопровождения запуска тестов).
-8. Тесты успешно пройдены, если:
+9. Тесты успешно пройдены, если:
     - в терминале появилось сообщение "3 passed";
     - в папке output появилось 3 скриншота счетчиков.
