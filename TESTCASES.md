@@ -177,11 +177,11 @@ Test_Case_Counter_energy
          - "color": "rgb(92, 92, 92)";
          - "font-family": "Manrope, arial, serif".
 
-  5.3 В правом верхнем углу счетчика располагается иконка "Солнце".
+   5.3 В правом верхнем углу счетчика располагается иконка "Солнце".
     
-       Параметры:
-         - "position": "absolute";
-         - "top": "-19px";
-         - "left": "169px";
-         - "width": "83px";
-         - "height": "89px".
+        Параметры:
+          - "position": "absolute";
+          - "top": "-19px";
+          - "left": "169px";
+          - "width": "83px";
+          - "height": "89px".
